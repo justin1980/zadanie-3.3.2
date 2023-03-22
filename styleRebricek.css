@@ -1,0 +1,69 @@
+
+
+a {
+
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+a:hover {
+    transition: border-bottom 0.5s  ;
+    border-bottom: 2px solid white;
+  }
+
+table {
+    width: 90%;
+    margin:20px auto;
+}
+
+tr.secondRow {
+    background-color: rgb(132, 132, 216);
+}
+
+tr.secondRow td {
+    color: white;
+}
+
+th {
+    color: white;
+    background-color: rgb(30, 30, 194);
+    font-weight: bolder;
+}
+
+td {
+    height: auto;
+    height: 10px;
+    color: rgb(132, 132, 216);
+    font-size: 20px;
+}
+
+.najlepsiFilm {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.najlepsiFilm h1 {
+    color: rgb(132, 132, 216);
+    text-align: center;
+    display: block;
+}
+
+.najlepsiFilm p {
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+.najlepsiFilm img {
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    border: 2px solid rgb(132, 132, 216);
+    border-radius: 10%;
+}

@@ -1,0 +1,27 @@
+header{
+    margin: 0;
+}
+
+.zoznamFilmov {
+    text-align: center;
+}
+
+.zoznamFilmov p {
+    display: block;
+    color: blue;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.zoznamFilmov a {
+    font-size: 30px;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+a:hover {
+    transition: border-bottom 0.5s, color 0.5s ;
+    border-bottom: 2px solid rgb(132, 132, 216);
+    color: rgb(132, 132, 216);
+}
+
